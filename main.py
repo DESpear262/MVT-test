@@ -4,25 +4,25 @@ from PrepGov import prep_gov
 from GovPartyDict import gov_party_dict
 from PrepCOVID_CD import *
 
-readfile = "C:\\Users\\s94da\\Desktop\\Data and Do-files for papers and homework\\Papers\\Median Voter COVID\\CPVI working.txt"
+readfile = "C:\\path\\to\\data\\files\\CPVI working.txt"
 
-redfile = "C:\\Users\\s94da\\Desktop\\Data and Do-files for papers and homework\\Papers\\Median Voter COVID\\CPVI red.txt"
+redfile = "C:\\path\\to\\data\\files\\CPVI red.txt"
 
-swingfile = "C:\\Users\\s94da\\Desktop\\Data and Do-files for papers and homework\\Papers\\Median Voter COVID\\CPVI swing.txt"
+swingfile = "C:\\path\\to\\data\\files\\CPVI swing.txt"
 
-govfile = "C:\\Users\\s94da\\Desktop\\Data and Do-files for papers and homework\\Papers\\Median Voter COVID\\CPVI gov.txt"
+govfile = "C:\\path\\to\\data\\files\\CPVI gov.txt"
 
-govpartydict = "C:\\Users\\s94da\\Desktop\\Data and Do-files for papers and homework\\Papers\\Median Voter COVID\\GovPartyDict.py"
+govpartydict = "C:\\path\\to\\data\\files\\GovPartyDict.py"
 
-COVIDread = "C:\\Users\\s94da\\Desktop\\Data and Do-files for papers and homework\\Papers\\Median Voter COVID\\CD COVID Raw epi.txt"
+COVIDread = "C:\\path\\to\\data\\files\\CD COVID Raw epi.txt"
 
-COVIDwrite = "C:\\Users\\s94da\\Desktop\\Data and Do-files for papers and homework\\Papers\\Median Voter COVID\\CD COVID Working epi.txt"
+COVIDwrite = "C:\\path\\to\\data\\files\\CD COVID Working epi.txt"
 
-#prep_redness(readfile, redfile)
+prep_redness(readfile, redfile)
 
-#prep_swinginess(readfile, swingfile)
+prep_swinginess(readfile, swingfile)
 
-#prep_gov(readfile, govfile, gov_party_dict)
+prep_gov(readfile, govfile, gov_party_dict)
 
 prep_CD_COVID(COVIDread, COVIDwrite)
 
